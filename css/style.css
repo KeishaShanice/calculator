@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: #96d3da;
+}
+
+.fullContainer {
+    height: 475px;
+    width: 375px;
+    margin: 50px;
+    padding: 13px;
+    background: #4c6e74;
+    border: 10px solid #2e302e;
+    border-radius: 30%;
+    box-shadow: 8px 5px 5px #a7ac9f;
+}
+
+.mainContainer {
+    height: 100%;
+    width: 100%;
+    background: #ebe8dd;
+    border: 4px solid #2e302e;
+    border-radius: 30%;
+}
+
+.output {
+    height: 55px;
+    width: 75%;
+    margin: 30px auto;
+    margin-bottom: 3px;
+    padding-top: 5px;
+    text-align: right;
+    background: #a7ac9f;
+    border: 3px solid #2e302e;
+    border-radius: 6px;
+}
+
+.input {
+    margin-right: 5px;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Turret Road', cursive;
+    color: #504a38;
+}
+
+.output #previousOperand {
+    color: rgba(255, 255, 255, .75);
+    font-size: 13px;
+    font-family: 'Turret Road', cursive;
+}
+
+.output #currentOperand {
+    color: white;
+    font-size: 24px;
+    font-family: 'Turret Road', cursive;
+}
+
+.face {
+    height: 75px;
+    width: 80%;
+    margin-left: 35px;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.faceFeats {
+    margin: 7px;
+}
+
+.leftEye {
+    height: auto;
+    width: 25%;
+    background: #2e302e;
+    border-radius: 50%;
+}
+
+.leftIris {
+    height: 23px;
+    width: 23px;
+    margin-top: 14px;
+    margin-left: 10px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+.mouth {
+    height: 50px;
+    width: 25%;
+    margin-top: 15px;
+    background: linear-gradient(180deg, hsla(352, 79%, 70%, 0.9) 44%, hsla(0, 75%, 80%, 1) 50%);
+    border: 5px solid #2e302e;
+    border-radius: 100%;
+}
+
+.rightEye {
+    height: auto;
+    width: 25%;
+    background: #2e302e;
+    border-radius: 50%;
+}
+
+.rightIris {
+    height: 23px;
+    width: 23px;
+    margin-top: 13px;
+    margin-left: 34px;
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+.buttonRow {
+    height: 50px;
+    width: 80%;
+    margin-left: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.number {
+    height: 32px;
+    width: 37px;
+    margin: 7px;
+    text-align: center;
+    font-size: 22px;
+    background: #a7ac9f;
+    color: #504a38;
+    border: 4px solid #2e302e;
+    border-radius: 55%;
+    box-shadow: 3px 3px 3px #a7ac9f;
+}
